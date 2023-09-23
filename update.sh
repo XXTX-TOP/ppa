@@ -7,7 +7,6 @@ gpg --default-key "XXTXTOP-kernel" -abs -o - Release > Release.gpg
 gpg --default-key "XXTXTOP-kernel" --clearsign -o - Release > InRelease
 cd ..
 
-time1=$(date)
 git add .
-git commit -m "(Get-Date -Format "hhddMMyy")"
+git commit -m "$(date)"
 git push
