@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/trusted.gpg.d/kernel-ppa-KEY.gpg]  https://github.com/XXTX-TOP/ppa ./
