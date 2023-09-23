@@ -17,6 +17,101 @@ Description: Linux kernel headers for 6.1.46-amd64-xxtxtop-desktop on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.3.5
+Source: linux-upstream
+Version: 6.3.5-1
+Architecture: amd64
+Maintainer: root <root@titan-PC>
+Installed-Size: 53905
+Filename: ./linux-headers-6.3.5_6.3.5-1_amd64.deb
+Size: 9150436
+MD5sum: 271701e9940f8e8c071266458f88735e
+SHA1: 7141d47d71a3acc8ff988ec28d6bd85252e7a6b0
+SHA256: 82a2e531ac12633892b741625c2dd984181b10fdc518b3273e5f6b51827fdc54
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.3.5 on amd64
+ This package provides kernel header files for 6.3.5 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.3.6
+Source: linux-upstream
+Version: 6.3.6-4
+Architecture: amd64
+Maintainer: root <root@xxx>
+Installed-Size: 53563
+Filename: ./linux-headers-6.3.6_6.3.6-4_amd64.deb
+Size: 9140676
+MD5sum: 2ad384fdbf4eda6d1ae2e8aaf7e7bef1
+SHA1: 54066508bcde35e65f4e6503bbcdc387737b02f7
+SHA256: 076a8f03f8b540c4cb5531fdea0b8d0f3864ca365b3521ce67c871002d63fb7a
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.3.6 on amd64
+ This package provides kernel header files for 6.3.6 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.4.0
+Source: linux-upstream
+Version: 6.4.0-3
+Architecture: amd64
+Maintainer: root <root@xxx-virtualbox>
+Installed-Size: 53195
+Filename: ./linux-headers-6.4.0_6.4.0-3_amd64.deb
+Size: 9323860
+MD5sum: a16b1ca3f0b078c4251187d16f60c29c
+SHA1: 5fd18918b3861c10ca857cd930bcd2cf8535998c
+SHA256: 43420176522d476d206194a025b3bad3cccccc969abd616bb6bf04c26003459b
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.4.0 on amd64
+ This package provides kernel header files for 6.4.0 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.4.0-rc4
+Source: linux-upstream
+Version: 6.4.0-rc4-1
+Architecture: amd64
+Maintainer: root <root@xxx-PC>
+Installed-Size: 54024
+Filename: ./linux-headers-6.4.0-rc4_6.4.0-rc4-1_amd64.deb
+Size: 9164644
+MD5sum: 7d7b89ba328db712528ca7356f39018e
+SHA1: a6723a41fc9759cc7b20eb4e58cb6040a80aae5a
+SHA256: f3d07a27bd5fc64a727aa0c616ecd94b127ef39be1a754e486ea3175774fe9c6
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.4.0-rc4 on amd64
+ This package provides kernel header files for 6.4.0-rc4 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.4.0-rc5
+Source: linux-upstream
+Version: 6.4.0-rc5-1
+Architecture: amd64
+Maintainer: root <root@xxx-PC>
+Installed-Size: 53790
+Filename: ./linux-headers-6.4.0-rc5_6.4.0-rc5-1_amd64.deb
+Size: 9165032
+MD5sum: e3c8fa0656ac82333046f6c4b3603257
+SHA1: 9cebf43f877943db2c07a596d7800dcb18ab3292
+SHA256: 3e678f52572a975c668cab9887c60b23d7c0ef7480288b0c856ffe99f73a7fcf
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.4.0-rc5 on amd64
+ This package provides kernel header files for 6.4.0-rc5 on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-6.4.10-amd64-xxtxtop-desktop
 Source: linux-upstream
 Version: 6.4.10-1
@@ -92,6 +187,96 @@ Description: Linux kernel, version 6.1.46-amd64-xxtxtop-desktop
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.46-amd64-xxtxtop-desktop.
 
+Package: linux-image-6.3.5
+Source: linux-upstream
+Version: 6.3.5-1
+Architecture: amd64
+Maintainer: root <root@titan-PC>
+Installed-Size: 483985
+Filename: ./linux-image-6.3.5_6.3.5-1_amd64.deb
+Size: 89183352
+MD5sum: 8c74a4c661b471ddb84c574ef4cb1a15
+SHA1: 19f4ad0dc53232f2a3bc0a2fd0f4958ef2840807
+SHA256: f3af9f6848a8b240448e222fe543d118df682dcb9353ce0c51d47b19fda428d5
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.3.5
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.3.5.
+
+Package: linux-image-6.3.6
+Source: linux-upstream
+Version: 6.3.6-4
+Architecture: amd64
+Maintainer: root <root@xxx>
+Installed-Size: 482680
+Filename: ./linux-image-6.3.6_6.3.6-4_amd64.deb
+Size: 88684108
+MD5sum: adeb47e333e609cadaa80884b740f859
+SHA1: f65a8260e6dc72e75f9d003248a208fcaf3cd88c
+SHA256: c5117e11f48b71302885e7e65dfc344453936ede1d068f3d0a2405e51f45c28e
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.3.6
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.3.6.
+
+Package: linux-image-6.4.0
+Source: linux-upstream
+Version: 6.4.0-3
+Architecture: amd64
+Maintainer: root <root@xxx-virtualbox>
+Installed-Size: 414402
+Filename: ./linux-image-6.4.0_6.4.0-3_amd64.deb
+Size: 75068882
+MD5sum: 803df69cd110beb0c76a9f7ca674439f
+SHA1: d74ccacc5b3c4221fb1325fea4bcd8cdb9e86c12
+SHA256: d8b8035c5787d7de738395e03b54709864bd74f94ca8a95290abe07c2e60160b
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.4.0
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.4.0.
+
+Package: linux-image-6.4.0-rc4
+Source: linux-upstream
+Version: 6.4.0-rc4-1
+Architecture: amd64
+Maintainer: root <root@xxx-PC>
+Installed-Size: 487244
+Filename: ./linux-image-6.4.0-rc4_6.4.0-rc4-1_amd64.deb
+Size: 89412688
+MD5sum: 470b60f75400c72bbe2bbb2e86b61daa
+SHA1: 4eeb2b296760502c5902f8ce74e605c74dce22f9
+SHA256: c7424ae7d23950fb1042d8523a015e5289b142bb1ad719f9d0bc2b2bf3e41ee2
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.4.0-rc4
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.4.0-rc4.
+
+Package: linux-image-6.4.0-rc5
+Source: linux-upstream
+Version: 6.4.0-rc5-1
+Architecture: amd64
+Maintainer: root <root@xxx-PC>
+Installed-Size: 485219
+Filename: ./linux-image-6.4.0-rc5_6.4.0-rc5-1_amd64.deb
+Size: 89065160
+MD5sum: 6a1f32c66020e200c76cbbd0192d2bc3
+SHA1: f7ca116e67f2fe60b11dcf95d77ecc45b3253b64
+SHA256: 51dc6ffbbc5a8e1934d147c4d5e4652c4710e2c824e2b0b12c2213cfcc35d2ac
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.4.0-rc5
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.4.0-rc5.
+
 Package: linux-image-6.4.10-amd64-xxtxtop-desktop
 Source: linux-upstream
 Version: 6.4.10-1
@@ -158,6 +343,106 @@ Size: 1315994
 MD5sum: ddd486b74ce2914ffcdc3d127c363a3c
 SHA1: e2e44223a9e545b915c10d3f04bc7ebddac86921
 SHA256: 92e7924ad09319fba3bbc909a733ba06c2b01ecd1be789a37aba1d377fad7890
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.3.5-1
+Architecture: amd64
+Maintainer: root <root@titan-PC>
+Installed-Size: 6651
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_6.3.5-1_amd64.deb
+Size: 1283192
+MD5sum: 3295921be9892e5909c48134a53dc9f1
+SHA1: f351a4013d3e04b2e5b4a8f57c92282f017ba6fa
+SHA256: d43f07f1e5534de2576c6e62f681a7a6ab6dddc20bd752d57bb69748b63df76e
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.3.6-4
+Architecture: amd64
+Maintainer: root <root@xxx>
+Installed-Size: 6651
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_6.3.6-4_amd64.deb
+Size: 1283148
+MD5sum: dba1f2cb898a900c9ffd602a1e1aa78f
+SHA1: d5a5c9cf1c5b044f03212ffc4a473f412a7360a9
+SHA256: f28e28ccbf871eda3509672e9102dd072c084c7b455a64c4c64f32596e2479d8
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.4.0-3
+Architecture: amd64
+Maintainer: root <root@xxx-virtualbox>
+Installed-Size: 6703
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_6.4.0-3_amd64.deb
+Size: 1336306
+MD5sum: 801b67ffb6a392ac324c80b76eaa7dba
+SHA1: ba2baeff38257937c613689b4800276619919fc6
+SHA256: ad61665271dda555b400d4647eed82e615d7519468ffc93eca30351de9e8e38d
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.4.0-rc4-1
+Architecture: amd64
+Maintainer: root <root@xxx-PC>
+Installed-Size: 6703
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_6.4.0-rc4-1_amd64.deb
+Size: 1293576
+MD5sum: ba1d209fabf8877ca75f3160e39c38f0
+SHA1: b20990139fcdb126df8bec8551fe46543b74f4e2
+SHA256: 2997745886b546e687310f27fd4056b2cb086e3a2a2d7969db0c7ce2a675319f
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.4.0-rc5-1
+Architecture: amd64
+Maintainer: root <root@xxx-PC>
+Installed-Size: 6703
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_6.4.0-rc5-1_amd64.deb
+Size: 1293420
+MD5sum: 1b0fda11db06121dca8144f742e0814d
+SHA1: 434574983eec2a4a4c571678c721f43005a297a5
+SHA256: 2da2b35415f9263c21de9c3997d9d470716ad8cd84aee365a41751d077ee1385
 Section: devel
 Priority: optional
 Multi-Arch: same
