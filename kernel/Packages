@@ -169,6 +169,44 @@ Description: Linux kernel headers for 6.5.0-rc6-amd64-xxtxtop-desktop on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.5.5-amd64-xxtxtop-desktop
+Source: linux-upstream
+Version: 6.5.5-1
+Architecture: amd64
+Maintainer: root <root@fv-az563-801.dyerz5icoewehhnb02jgpzoacb.bx.internal.cloudapp.net>
+Installed-Size: 54693
+Filename: ./linux-headers-6.5.5-amd64-xxtxtop-desktop_6.5.5-1_amd64.deb
+Size: 9580448
+MD5sum: 2ece7e4c29127856bb00dd943182db31
+SHA1: d6f67e466c14a339716a01c2296c566b20bebf1a
+SHA256: 4d078b96e7e7fa99c540c346761c0e75e229ee5c3073dc3a7c1b6f42039eeed9
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.5.5-amd64-xxtxtop-desktop on amd64
+ This package provides kernel header files for 6.5.5-amd64-xxtxtop-desktop on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.6.0-rc4-amd64-xxtxtop-desktop
+Source: linux-upstream
+Version: 6.6.0-rc4-1
+Architecture: amd64
+Maintainer: root <root@fv-az563-801.dyerz5icoewehhnb02jgpzoacb.bx.internal.cloudapp.net>
+Installed-Size: 55216
+Filename: ./linux-headers-6.6.0-rc4-amd64-xxtxtop-desktop_6.6.0-rc4-1_amd64.deb
+Size: 9662124
+MD5sum: c26c23d2f1338e42b492426cb8e3cbf3
+SHA1: a466a4439dacded4e9376077a1c7cc49a888c100
+SHA256: 4260c61fa507f17797b824de173794b90c72380002156eabfe7757ec76e4a815
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.6.0-rc4-amd64-xxtxtop-desktop on amd64
+ This package provides kernel header files for 6.6.0-rc4-amd64-xxtxtop-desktop on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-6.1.46-amd64-xxtxtop-desktop
 Source: linux-upstream
 Version: 6.1.46-amd64-xxtxtop-desktop-1
@@ -330,6 +368,42 @@ Homepage: https://www.kernel.org/
 Description: Linux kernel, version 6.5.0-rc6-amd64-xxtxtop-desktop
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.5.0-rc6-amd64-xxtxtop-desktop.
+
+Package: linux-image-6.5.5-amd64-xxtxtop-desktop
+Source: linux-upstream
+Version: 6.5.5-1
+Architecture: amd64
+Maintainer: root <root@fv-az563-801.dyerz5icoewehhnb02jgpzoacb.bx.internal.cloudapp.net>
+Installed-Size: 406474
+Filename: ./linux-image-6.5.5-amd64-xxtxtop-desktop_6.5.5-1_amd64.deb
+Size: 86846362
+MD5sum: ba122a58e4181bf8990137502faaed13
+SHA1: 4fdcf85d51bb8fd048028ce4a1a6edeba22ae564
+SHA256: 1f7a89ad512ad2919263df3eae08aea3b6ea33568fba440462e2f423c94c3c1a
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.5.5-amd64-xxtxtop-desktop
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.5.5-amd64-xxtxtop-desktop.
+
+Package: linux-image-6.6.0-rc4-amd64-xxtxtop-desktop
+Source: linux-upstream
+Version: 6.6.0-rc4-1
+Architecture: amd64
+Maintainer: root <root@fv-az563-801.dyerz5icoewehhnb02jgpzoacb.bx.internal.cloudapp.net>
+Installed-Size: 407772
+Filename: ./linux-image-6.6.0-rc4-amd64-xxtxtop-desktop_6.6.0-rc4-1_amd64.deb
+Size: 87162166
+MD5sum: 4ced0c734a8ca2aa0bfe0c421116511e
+SHA1: d72fb763da17f8ca042039d91b12d0ed7086febd
+SHA256: 07d6872980fc005a0f8c45a3bd0af933e531b4d5e91726ecffae02000dca4121
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.6.0-rc4-amd64-xxtxtop-desktop
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.6.0-rc4-amd64-xxtxtop-desktop.
 
 Package: linux-libc-dev
 Source: linux-upstream
@@ -503,6 +577,46 @@ Size: 1353764
 MD5sum: b002390592437a17048825dde4b97a7d
 SHA1: 0c764f4175e18755b03faf24006fd76a54f799e9
 SHA256: b5bf2ac6838cc3cc6320e98469270ff1b79191cfb7c6f625697676a402d57891
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.5.5-1
+Architecture: amd64
+Maintainer: root <root@fv-az563-801.dyerz5icoewehhnb02jgpzoacb.bx.internal.cloudapp.net>
+Installed-Size: 6792
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_6.5.5-1_amd64.deb
+Size: 1353518
+MD5sum: 94095413ad1620416081c1e1bec5fffd
+SHA1: 993d47bfab0a996f7e0ebba732717dd6a196e848
+SHA256: ac86a31e2d3650924eb61a07e8abb8e83a923563f18cd83306b00baf8bf2207d
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.6.0-rc4-1
+Architecture: amd64
+Maintainer: root <root@fv-az563-801.dyerz5icoewehhnb02jgpzoacb.bx.internal.cloudapp.net>
+Installed-Size: 6838
+Provides: linux-kernel-headers
+Filename: ./linux-libc-dev_6.6.0-rc4-1_amd64.deb
+Size: 1362264
+MD5sum: 93b704e499b05c37ff406ed11fcc8936
+SHA1: 3eddc80315b6ca7e773640d8bba9e90da7194122
+SHA256: 16f9e7a06bc3353bfa68eb2184169f24f11499575a7030c8be5e54c3c4bdf162
 Section: devel
 Priority: optional
 Multi-Arch: same
