@@ -8,6 +8,7 @@ gpg --default-key "XXTXTOP-kernel" --clearsign -o - Release > InRelease
 cd ..
 git config user.name "XXTXTOP"
 git config user.email "xxtxtop@gmail.com"
+git add .gitattributes
 git add .
 git commit -m "$(date)"
 git push
